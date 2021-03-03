@@ -25,7 +25,7 @@ const oneRep = presidents.filter(
 console.table(oneRep);
 
 //3) return only the last three presidents
-const newPres = [...presidents.slice(9)];
+const newPres = [...presidents.slice(9)]; //could also do -3 perfered way
 console.table(newPres);
 
 //4) log all dems who served 2 terms. HINT use chain filter, filter and slice
